@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "contract SimpleStorage[]",
+						"name": "_simpleStorage",
+						"type": "address[]"
+					}
+				],
+				"name": "simpleStorageEvent",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "createSimpleStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "simpleStorageArray",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0xd5b687e6ece72ce962f9fee15073895ba44ef2e6d4dc86331f027e21396d4bc5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://220f423c6ab1d9d2940d27ee200721aae1829278d6a54e82271bab47f40ef238",
+				"dweb:/ipfs/QmXzhu1UDBkpK4377Wwubi2V1j39h3B9tiXyHMcBa1v7fq"
+			]
+		},
+		"contracts/StorageFactory.sol": {
+			"keccak256": "0x4ad6aea51371d23f8a38ddac10e5d42cb4f493316b4a65933494f1bf513dec47",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d50fd80e5a922f5219fc4f3464cafbc4acdb2a0c1dde18955e53fa42ee41de8a",
+				"dweb:/ipfs/QmXjCVP7YPRXKH4tibGzN3XwwnUqrL4Tc2wJqHWy5osvDE"
+			]
+		}
+	},
+	"version": 1
+}
